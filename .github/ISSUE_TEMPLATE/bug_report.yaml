@@ -30,6 +30,34 @@ body:
       label: Reproduction steps
       description: Steps to reproduce a bug
       placeholder: 1. Click diamond 2. HODL
-      value: "A bug happened!"
     validations:
-      required: false
+      required: true
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual result
+      description: What was seen
+      placeholder: When action is done, something happens
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected result
+      description: What was expected
+      placeholder: When action is done, nothing happens
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: Severity of the bug
+      options:
+        - Vulnerability
+        - Critical
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true

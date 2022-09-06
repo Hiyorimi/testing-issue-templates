@@ -1,0 +1,18 @@
+name: Bug Report
+description: Report of critical bug such as UX inconsistencies, logical contradictions and functional shortcomings.
+labels: 'Bug Report'
+body:
+  - type: dropdown
+    id: bug_type
+    attributes:
+      label: Bug Type
+      description: Select the bug type
+      options:
+        - App crashed
+        - App froze
+        - Function not working
+        - Data damaged
+        - Performance
+        - UX inconsistency
+    validations:
+      required: true

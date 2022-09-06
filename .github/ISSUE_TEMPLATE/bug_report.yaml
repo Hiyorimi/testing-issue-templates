@@ -16,19 +16,11 @@ body:
         - UX inconsistency
     validations:
       required: true
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Clear title
-      placeholder: Briefly describe the bug
-    validations:
-      required: true
   - type: textarea
     id: reproduction-steps
     attributes:
       label: Reproduction steps
-      description: Steps to reproduce a bug
+      description: Steps to reproduce a bug (you are welcome to attach screenshots here)
       placeholder: 1. Click diamond 2. HODL
     validations:
       required: true

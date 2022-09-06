@@ -105,3 +105,11 @@ body:
         - Version [e.g. 22]
     validations:
       required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Device
+      description: Add any other context about the problem here.
+      placeholder: e.g. device was rooted
+    validations:
+      required: false

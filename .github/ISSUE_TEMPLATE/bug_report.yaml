@@ -8,12 +8,12 @@ body:
       label: Bug Type
       description: Select the bug type
       options:
-        - App crashed
-        - App froze
-        - Function not working
-        - Data damaged
+        - Functional
+        - UX
+        - UI
         - Performance
-        - UX inconsistency
+        - Security
+        - Localization
         - Other
     validations:
       required: true

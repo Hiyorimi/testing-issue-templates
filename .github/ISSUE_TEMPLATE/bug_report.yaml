@@ -42,9 +42,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: severity
+    id: suggested-severity
     attributes:
-      label: Severity
+      label: Suggested Severity
       description: Severity of the bug
       options:
         - Vulnerability
